@@ -1,18 +1,21 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #AED4C7;
+  color: #000000;
 }
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  font-size: 1.5em;
+  background-color: rgba(0,0,0,.3);
   float: left;
   position: fixed;
   width: 100%;
 }
 
 .logo {
-  margin: 20px;
-  width: 100px;
+  margin: 50px;
+  width: 120px;
 }
 
 .large-pic {
@@ -25,7 +28,7 @@ nav {
 
 .left, .right {
   float: left;
-  width: 50%;
+  width: 90%;
 }
 
 .right {
@@ -43,10 +46,45 @@ li {
 }
 
 article {
-  padding-top: 100px;
+  padding-top: 300px;
+}
+
+figcaption {
+  font-size: 80%;
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 2;
+  font-weight: 900;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.8;
+  font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link { color:#0B0BCA; }
+a:visited { color:#A7A7FA; }
+a:hover { color:#C518F0; }
+a:active { color:#FFFFFF; }
+
+.author {
+  font-size: 80%;
+  line-height: 2;
 }
 
 .container {
   margin: 0 auto;
-  width: 50%;
+  width: 80%;
+}
+
+.story-text {
+  font-size: 100%;
+  line-height: 1.5;
 }
